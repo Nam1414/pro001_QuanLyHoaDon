@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace QLDH.Models
 {
-    internal class Order
+    public class Order:IOrder
     {
+        public int OrderId { get; set; }
+        public string? ProductType { get; set; }
+        public string? OrderMode { get; set; } // Legacy | Modern
     }
 }
+
