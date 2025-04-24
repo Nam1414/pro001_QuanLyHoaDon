@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace QLDH.Factory
 {
-    internal interface IDigitalProduct
+    public interface IDigitalProduct
     {
+        void Deliver();
     }
+        
 }

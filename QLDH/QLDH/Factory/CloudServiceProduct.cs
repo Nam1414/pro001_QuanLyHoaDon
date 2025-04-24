@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QLDH.Factory
 {
-    public class CloudServiceProduct
+    public class CloudServiceProduct: IDigitalProduct
     {
         public void Deliver() => Console.WriteLine(" 🔹 Activating Cloud Service...");
     }

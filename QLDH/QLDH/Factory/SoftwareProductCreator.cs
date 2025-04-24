@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace QLDH.Factory
 {
-    internal class SoftwareProductCreator
+    public class SoftwareProductCreator :ProductCreator
     {
+        public override IDigitalProduct CreateProduct() => new SoftwareProduct();   
     }
 }
